@@ -108,6 +108,7 @@ button:hover {
   overflow-x: auto;
 }
 .conat button {
+  border: none;
   background: transparent;
   color: #858990;
   font-size: 17px;
@@ -205,4 +206,253 @@ h1 {
   font-size: 15px;
   padding-top: 35px;
   border-top: 1px solid #1459d8;
+}
+
+@media (max-width: 425px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .head {
+    min-height: 65px;
+    padding: 0, 22px;
+  }
+  .logo {
+    font-size: 16px;
+  }
+  .navig {
+    gap: 11px;
+  }
+  .navig a {
+    font-size: 10px;
+  }
+  .navig a:hover {
+    color: #e6a332;
+  }
+  .hero {
+    /* min-height: auto; */
+    padding: 45px 20px;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .centant {
+    width: 100%;
+  }
+  #title {
+    font-size: 10px;
+    letter-spacing: 3px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .description {
+    font-size: 14px;
+  }
+  .image {
+    width: 100%;
+    height: 260px;
+  }
+  .plcesholder h3 {
+    padding-left: 60px;
+  }
+  .plcesholder p {
+    padding-left: 60px;
+  }
+  .conatiner {
+    padding: 35px 20px 55px;
+  }
+  .conat {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 30px;
+    overflow-x: auto;
+  }
+  .conat button {
+    font-size: 10px;
+    padding: 7px 12px;
+  }
+  .conat h1 {
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+@media (min-width: 426px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .head {
+    min-height: 65px;
+    padding: 0, 22px;
+  }
+  .logo {
+    font-size: 16px;
+  }
+  .navig {
+    gap: 11px;
+  }
+  .navig a {
+    font-size: 10px;
+  }
+  .hero {
+    /* min-height: auto; */
+    padding: 45px 20px;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .centant {
+    width: 100%;
+  }
+  #title {
+    font-size: 10px;
+    letter-spacing: 3px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .description {
+    font-size: 14px;
+  }
+  .image {
+    width: 100%;
+    height: 260px;
+  }
+  .plcesholder h3 {
+    padding-left: 60px;
+  }
+  .plcesholder p {
+    padding-left: 60px;
+  }
+  .conatiner {
+    padding: 35px 20px 55px;
+  }
+  .conat {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 30px;
+    overflow-x: auto;
+  }
+  .conat button {
+    font-size: 10px;
+    padding: 7px 12px;
+  }
+  .conat h1 {
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+@media (min-width: 769px) {
+  .logo {
+    font-size: 32px;
+  }
+  .navig {
+    gap: 30px;
+  }
+  .navig a {
+    font-size: 18px;
+  }
+
+  .navig a:hover {
+    color: #33c11a;
+  }
+  #title {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  h1 {
+    font-size: 39px;
+  }
+  .description {
+    font-size: 25px;
+  }
+
+  .plcesholder h3 {
+    padding-left: 210px;
+    font-size: 40px;
+  }
+  .plcesholder p {
+    padding-left: 210px;
+    font-size: 36px;
+  }
+
+  .conat {
+    /* display: flex; */
+    /* gap: 4px; */
+    /* margin-bottom: 30px; */
+    /* overflow-x: auto; */
+  }
+  .conat button {
+    font-size: 18px;
+    padding: 14px 25px;
+  }
+}
+@media (min-width: 1025px) {
+  .plcesholder h3 {
+    padding-left: 140px;
+  }
+  .plcesholder p {
+    padding-left: 120px;
+  }
+  .link {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    padding: 5dvi 0 90px;
+  }
+
+  .column h3 {
+    color: #dca13b;
+    margin-bottom: 50px;
+    font-size: 37px;
+  }
+  .column p {
+    margin-bottom: 36px;
+    color: #858990;
+    font-size: 16px;
+  }
+  .buttons {
+    text-align: center;
+    color: #858990;
+    font-size: 25px;
+    padding-top: 40px;
+    border-top: 1px solid #1459d8;
+  }
+  .footer {
+    padding: 100px 50px 60px;
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 1px solid #1459d8;
+  }
+  .stat {
+    padding: 60px 40px;
+    text-align: center;
+    border-right: 1px solid #292e37;
+  }
+  .number {
+    color: #e9a52c;
+    font-family: serif;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .label {
+    color: #858990;
+    letter-spacing: 4px;
+    font-size: 30px;
+  }
 }
